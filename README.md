@@ -30,13 +30,13 @@ Body response:
     "id": "id:cDODuX3Ank0AAAAAAAAXhQ"
 }
 
-###### status code: 200 ok
+##### status code: 200 ok
 
 ##### Er flowet i overenstemmelse med princippet om "uniform interface" i REST principperne?
 - Jeg mener at flowet er i overensstemmelse med princippet om "uniform interface" i REST principperne, selvom jeg ikke bruger det "korrekte" HTTP-verb. Det tillod den mig ikke :( 
 
 ## Øvelse 4
-### Endpoint = https://content.dropboxapi.com/2/files/upload
-### HTTP verb = POST
+##### Endpoint = https://content.dropboxapi.com/2/files/upload
+##### HTTP verb = POST
 
-#### Beskrivelse: Filen blev uploadet ved at sende en POST-forespørgsel til det angivne endpoint med en gyldig "Bearer Token" i "Authorization"-headeren. Filtypen blev angivet som "application/octet-stream," og filen blev inkluderet som binær data i requestens krop. Mappenavnet og filnavnet blev specificeret i "Dropbox-API-Arg"-headeren, og filen blev derefter uploadet til "TestMappe" i Dropbox.
+##### Beskrivelse: Filen blev uploadet ved at sende en POST-forespørgsel til det angivne endpoint med en gyldig "Bearer Token" i "Authorization"-headeren. Filtypen blev angivet som "application/octet-stream," og filen blev inkluderet som binær data i requestens krop. Mappenavnet og filnavnet blev specificeret i "Dropbox-API-Arg"-headeren, og filen blev derefter uploadet til "TestMappe" i Dropbox.
